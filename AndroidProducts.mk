@@ -1,3 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #
 # Copyright (C) 2018-2019 The LineageOS Project
 #
@@ -14,9 +53,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_beryllium.mk
+    $(LOCAL_DIR)/colt_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_beryllium-user \
-    havoc_beryllium-userdebug \
-    havoc_beryllium-eng
+    colt_beryllium-user \
+    colt_beryllium-userdebug \
+    colt_beryllium-eng
+
