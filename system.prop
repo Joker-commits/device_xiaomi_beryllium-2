@@ -1,0 +1,4 @@
+# Maintainer                                                           
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.colt.maintainer=Mani♥Madhuri
+
