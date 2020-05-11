@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Colt stuff.
-$(call inherit-product, vendor/colt/config/common.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := colt_beryllium
@@ -16,7 +16,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
 PRODUCT_MANUFACTURER := Xiaomi
 
-COLT_BUILD_TYPE := OFFICIAL
+# ColtOS stuffs
+TARGET_BOOT_ANIMATION_RES := 1080 
+COLT_BUILD_TYPE := Official 
+COLT_DEVICE_MAINTAINER := Mani
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys"
 
