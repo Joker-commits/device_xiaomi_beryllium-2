@@ -2,3 +2,6 @@
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.colt.maintainer=Mani♥Madhuri
 
+# ColtOS stuffs
+TARGET_BOOT_ANIMATION_RES := 1080×2246
+COLT_BUILD_TYPE := Official
