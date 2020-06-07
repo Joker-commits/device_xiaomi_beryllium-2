@@ -87,3 +87,8 @@ PRODUCT_COPY_FILES += \
 # PocketMode
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    FireFoxLite \
+    GCamGo
